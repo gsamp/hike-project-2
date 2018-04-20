@@ -12,12 +12,12 @@ body {
 
 /*first and second input boxes*/
 input[type="number"] {
+	border: none;
 	border-radius: 25px;
 	height: 40px;
-	width: 280px;
 	margin: 12px;
 	text-align: center;
-	border: none;
+	width: 280px;
 }
 
 /*radio buttons*/
@@ -67,13 +67,7 @@ button:hover {
 
 /*result*/
 h2 {
-	font-family: 'Varela Round', sans-serif;
 	color: #ffffff;
+	font-family: 'Varela Round', sans-serif;
 	margin-top: 25px;
 }
-
-
-
-
-
-
