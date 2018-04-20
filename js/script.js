@@ -1,4 +1,4 @@
-// This file contains the javascripts code of a calculator.
+// This file contains the javascript code of a calculator.
 
 /**
  * Returns the result of an operation over two numbers.
