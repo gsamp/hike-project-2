@@ -34,9 +34,13 @@ function getResult(num1, num2, operation) {
  * Emplyos parseFloat() to support decimals and isNaN() to check non-numeric values. 
  */
 document.getElementById('calculate-button').onclick = function () {
+	// Gets input boxes 1 and 2.
+	let elem1 = document.getElementById('elem-1');
+	let elem2 = document.getElementById('elem-2');
+	
 	// Gets values inside input boxes 1 and 2.
-	let val1 = parseFloat(document.getElementById('elem-1').value);
-	let val2 = parseFloat(document.getElementById('elem-2').value);
+	let val1 = parseFloat(elem1.value);
+	let val2 = parseFloat(elem2.value);
 	
 	// Creates variable to determine which operation was chosen.
 	let operation = document.querySelector('input[name="operation"]:checked').value;
@@ -53,25 +57,11 @@ document.getElementById('calculate-button').onclick = function () {
 	} else { 
 		alert('Digite um valor numérico nas caixas!'); // Alerts about NaN values.
 		if (!val1) {
-			document.getElementById('elem-1').select(); // Focuses empty input boxes. When both are empty, it focuses on the first one.
+			elem1.select(); // Focuses empty input boxes. When both are empty, it focuses on the first one.
 		} else if (!val2) {
-			document.getElementById('elem-2').select();		
+			elem2.select();		
 		} else if (!val1 && !val2) {
-			document.getElementById('elem-1').select();
+			elem1.select();
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
