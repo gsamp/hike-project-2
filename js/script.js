@@ -45,7 +45,7 @@ document.getElementById('calculate-button').onclick = function () {
 	let operationResult = getResult(val1, val2, operation);
 	
 	// Puts resulting value inside element with id "result".
-	let resultElement = document.getElementById('result')
+	let resultElement = document.getElementById('result');
 	
 	// Displays result.
 	if (!isNaN(operationResult)) {
