@@ -7,7 +7,7 @@ Projeto de criação de uma calculadora. Contém três principais campos de inte
   
 2. Porcentagem: 
   O valor na primeira caixa de texto é dividido pelo valor contido na segunda caixa de texto e o resultado da divisão é multiplicado por 100. 
-  Ex: Para saber quantos porcento de 10 é 2, digite 2 na primeira caixa e 10 na segunda. O resultado 20 indica que 2 é 20 porcento de 10. 
+  Ex: Para saber quantos por cento de 10 é 2, digite 2 na primeira caixa e 10 na segunda. O resultado 20 indica que 2 é 20 por cento de 10. 
 
 3. Raíz: 
   A raíz do valor na primeira caixa de texto é calculada de acordo com o índice contido na segunda caixa. 
