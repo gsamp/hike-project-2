@@ -65,3 +65,15 @@ document.getElementById('calculate-button').onclick = function () {
 		}
 	}
 }
+
+/**
+ * Reacts to clickling 'ac-button'. Clears input boxes and resets result.
+ */
+document.getElementById('ac-button').onclick = function () {
+	// Clears input boxes.
+	document.getElementById('elem-1').value = null;
+	document.getElementById('elem-2').value = null;
+	// Resets result.
+	document.getElementById('result').innerHTML = 'RESULTADO';
+}
+
