@@ -54,6 +54,9 @@ document.getElementById('calculate-button').onclick = function () {
 	// Displays result.
 	if (!isNaN(operationResult)) {
 		resultElement.innerHTML = operationResult;
+		if (operationResult == 'Infinity') { // Infinite results.
+			resultElement.innerHTML = '∞'
+		}
 	} else { 
 		alert('Digite um valor numérico nas caixas!'); // Alerts about NaN values.
 		if (!val1) {
